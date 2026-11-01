@@ -8,7 +8,7 @@ int main(void)
     {
         printf("OK");
     }
-    else
+    if (0 <= input && input < 10)
     {
         printf("NG");
     }
